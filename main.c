@@ -3,11 +3,11 @@
 
 int main()
 {
-    int son,num,i;
-    printf("Kaca kadar olacagini yaziniz: ");
+    int last,num,i;
+    printf("how many numbers do you want to print to: ");
     scanf("%d",&son);
 
-    for(i=0;i<=son;i+=2)
+    for(i=0;i<=last;i+=2)
     {
         printf("%d\n",i);
     }
