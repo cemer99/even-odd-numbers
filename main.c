@@ -5,7 +5,7 @@ int main()
 {
     int last,num,i;
     printf("how many numbers do you want to print to: ");
-    scanf("%d",&son);
+    scanf("%d",&last);
 
     for(i=0;i<=last;i+=2)
     {
